@@ -1,0 +1,75 @@
+body {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  background: url('https://img.freepik.com/vetores-premium/de-fundo-vector-geometrico-abstrato-com-padrao-de-mosaico-quadrado-de-pixel-cinza-claro_692379-347.jpg') /* Adicionando uma cor de fundo para melhor visibilidade */
+}
+
+.container {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 50px;
+  margin-bottom: 20px; /* Adicionando espaço abaixo do título */
+}
+
+p {
+  font-size: 30px;
+}
+
+label {
+  font-size: 30px; /* Ajustando o tamanho da fonte para rótulos */
+  display: block; /* Fazendo os rótulos ocuparem uma linha inteira */
+  margin-top: 10px; /* Adicionando espaço acima dos rótulos */
+}
+
+button {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px 20px; /* Aumentando o preenchimento dos botões para uma aparência mais agradável */
+  font-size: 18px;
+  background: url('https://i.pinimg.com/564x/00/d9/27/00d9275fbe16e9c864751cba4d7aa7ba.jpg'); /* Adicionando uma cor de fundo aos botões */
+  color: #fff; /* Definindo a cor do texto para branco */
+  border: none; /* Removendo as bordas dos botões */
+  cursor: pointer; /* Alterando o cursor para indicar interatividade */
+  transition: background-color 0.3s ease; /* Adicionando uma transição suave para a cor de fundo */
+}
+
+.botao1:hover {
+  background-color: #00CC00; /* Cor de fundo alterada ao passar o mouse sobre os botões */
+}
+
+.botao2:hover {
+  background-color: #FFCC00; /* Cor de fundo alterada ao passar o mouse sobre os botões */
+}
+
+.botao3:hover {
+  background-color: #CC0000; /* Cor de fundo alterada ao passar o mouse sobre os botões */
+}
+
+input {
+  margin-top: 10px;
+  width: 200px; /* Largura ajustável conforme necessário */
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc; /* Adicionando uma borda */
+  border-radius: 5px; /* Adicionando bordas arredondadas */
+  outline: none; /* Removendo o contorno padrão ao focar */
+  transition: border-color 0.3s ease; /* Adicionando uma transição suave para a borda */
+}
+
+input:hover, input:focus {
+  border-color: #4285f4; /* Cor da borda alterada ao passar o mouse ou ao focar */
+}
+
+.botao4:hover {
+  background-color: #993399;
+}
